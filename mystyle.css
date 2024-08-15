@@ -1,0 +1,234 @@
+
+.flip-card {
+    background-color: transparent;
+    cursor: pointer;
+    perspective: 1000px;
+    
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    color: black;
+    position: absolute;
+    top: 0;
+}
+
+.flip-card-front .clip {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+}
+.flip-card-front .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+}
+
+.flip-card-back {
+    color: black;
+    transform: rotateY(180deg);
+}
+
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+:root{
+    --color-1: #2980b9;
+    --color-2: #29b960;
+    --color-3: #d38e0e;
+    --color-4: #f06078;
+    --color-5: #968216;
+    --color-6: #bf3ce7;
+    --color-7: #c04646;
+    --color-8: #29b9b9;
+    --color-9: #29b971;
+    --color-10: #2933b9;
+    --color-11: #cfdb46;
+    --color-12: #9e496d;
+    --color-13: #2095e4;
+    --color-14: #29b929;
+    --color-15: #b929b2;
+
+    --clip-1: circle(50.0% at 50% 50%); /*Circle*/
+    --clip-2: polygon(50% 0%, 72% 23%, 98% 35%, 82% 66%, 82% 94%, 50% 84%, 16% 94%, 18% 65%, 2% 35%, 29% 23%); /*Star*/
+    --clip-3: polygon(0% 0%, 67% 0, 100% 50%, 67% 100%, 0% 100%); /*Right Point*/
+    --clip-4: polygon(50% 0%, 0% 100%, 100% 100%); /*Trangle*/
+    --clip-5: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); /*Rabet*/
+    --clip-6: polygon(0 16%, 100% 16%, 76% 100%, 25% 100%); /*Trapezoid*/
+    --clip-7: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); /*Hexagon*/
+    --clip-8: polygon(33% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%); /*Left Point*/
+    --clip-9: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); /*Pentagon*/
+    --clip-10: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /*Rhombus*/;
+}
+
+.flip-card-inner.color-1 .flip-card-front{
+    background-color: var(--color-1);
+}
+.flip-card-inner.color-2 .flip-card-front{
+    background-color: var(--color-2);
+}
+.flip-card-inner.color-3 .flip-card-front{
+    background-color: var(--color-3);
+}
+.flip-card-inner.color-4 .flip-card-front{
+    background-color: var(--color-4);
+}
+.flip-card-inner.color-5 .flip-card-front{
+    background-color: var(--color-5);
+}
+.flip-card-inner.color-6 .flip-card-front{
+    background-color: var(--color-6);
+}
+.flip-card-inner.color-7 .flip-card-front{
+    background-color: var(--color-7);
+}
+.flip-card-inner.color-8 .flip-card-front{
+    background-color: var(--color-8);
+}
+.flip-card-inner.color-9 .flip-card-front{
+    background-color: var(--color-9);
+}
+.flip-card-inner.color-10 .flip-card-front{
+    background-color: var(--color-10);
+}
+.flip-card-inner.color-11 .flip-card-front{
+    background-color: var(--color-11);
+}
+.flip-card-inner.color-12 .flip-card-front{
+    background-color: var(--color-12);
+}
+.flip-card-inner.color-13 .flip-card-front{
+    background-color: var(--color-13);
+}
+.flip-card-inner.color-14 .flip-card-front{
+    background-color: var(--color-14);
+}
+
+.flip-card-inner.color-15 .flip-card-front{
+    background-color: var(--color-15);
+}
+
+.flip-card-inner.color-1 .flip-card-front .content{
+    color: var(--color-1);
+}
+.flip-card-inner.color-2 .flip-card-front .content{
+    color: var(--color-2);
+}
+.flip-card-inner.color-3 .flip-card-front .content{
+    color: var(--color-3);
+}
+.flip-card-inner.color-4 .flip-card-front .content{
+    color: var(--color-4);
+}
+.flip-card-inner.color-5 .flip-card-front .content{
+    color: var(--color-5);
+}
+.flip-card-inner.color-6 .flip-card-front .content{
+    color: var(--color-6);
+}
+.flip-card-inner.color-7 .flip-card-front .content{
+    color: var(--color-7);
+}
+.flip-card-inner.color-8 .flip-card-front .content{
+    color: var(--color-8);
+}
+.flip-card-inner.color-9 .flip-card-front .content{
+    color: var(--color-9);
+}
+.flip-card-inner.color-10 .flip-card-front .content{
+    color: var(--color-10);
+}
+.flip-card-inner.color-11 .flip-card-front .content{
+    color: var(--color-11);
+}
+.flip-card-inner.color-12 .flip-card-front .content{
+    color: var(--color-12);
+}
+.flip-card-inner.color-13 .flip-card-front .content{
+    color: var(--color-13);
+}
+.flip-card-inner.color-14 .flip-card-front .content{
+    color: var(--color-14);
+}
+.flip-card-inner.color-15 .flip-card-front .content{
+    color: var(--color-15);
+}
+
+.flip-card-inner.clip-1 .flip-card-front .clip {
+    clip-path: var(--clip-1);
+}
+.flip-card-inner.clip-2 .flip-card-front .clip {
+    clip-path: var(--clip-2);
+}
+.flip-card-inner.clip-3 .flip-card-front .clip {
+    clip-path: var(--clip-3);
+}
+.flip-card-inner.clip-4 .flip-card-front .clip {
+    clip-path: var(--clip-4);
+}
+.flip-card-inner.clip-5 .flip-card-front .clip {
+    clip-path: var(--clip-5);
+}
+.flip-card-inner.clip-6 .flip-card-front .clip {
+    clip-path: var(--clip-6);
+}
+.flip-card-inner.clip-7 .flip-card-front .clip {
+    clip-path: var(--clip-7);
+}
+.flip-card-inner.clip-8 .flip-card-front .clip {
+    clip-path: var(--clip-8);
+}
+.flip-card-inner.clip-9 .flip-card-front .clip {
+    clip-path: var(--clip-9);
+}
+.flip-card-inner.clip-10 .flip-card-front .clip {
+    clip-path: var(--clip-10);
+}
+
+
+@keyframes body-bg {
+
+    0%      {background-color: #76b8e4;}
+    20%     {background-color: #81ca9d;}
+    40%     {background-color: #e7c586;}
+    80%     {background-color: #e67688;}
+    100%    {background-color: #76b8e4;}
+}
+body{
+    background-color: #76b8e4;
+    animation-name: body-bg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
