@@ -20,4 +20,13 @@
 #cr-logo {
     height: 95px;
     padding-right: 10px;
+    border-radius: 70px;
+}
+
+#linkinParkLogo,
+#primeLogo {
+    border: 8px solid red;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
 }
