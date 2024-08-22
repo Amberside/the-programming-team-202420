@@ -4,112 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rogan</title>
-        <style>
-            * {
-                margin: 0px;
-                padding: 0px;
-                box-sizing: border-box;
-            }
-            body {
-                background-image: url("Pantheon-Ceiling.jpg");
-                background-position: center center;
-                background-attachment: fixed;
-                background-size: cover;
-
-                color: white;
-                text-align: center;
-            }
-            #container1 {
-                display: flex;
-                justify-content: center;
-                margin: 0;
-                overflow: hidden;
-            }
-            #heading {
-                position: fixed;
-                top: 5%;
-                bottom: 83%;
-                font-family: Georgia, serif;
-                font-size: 40px;
-                font-variant: small-caps;
-                color: white;
-                text-decoration: underline;
-                text-align: center center;
-                text-shadow: 1px 1px 0px black;
-
-                animation: fade-in 1s ease-in-out;
-                animation-delay: 1s;
-                animation-fill-mode: backwards;
-            }
-            #paragraph1 {
-                position: fixed;
-                top: 15%;
-                bottom: 60%;
-                left: 25%;
-                right: 25%;
-                font-family: Georgia, serif;
-                font-size: 22px;
-                color: white;
-                overflow: auto;
-                text-shadow: 1px 1px 0px black;
-
-                animation: fade-in 1s ease-in-out;
-                animation-delay: 2s;
-                animation-fill-mode: backwards;
-            }
-            #paragraph2 {
-                position: fixed;
-                top: 63%;
-                bottom: 14%;
-                left: 25%;
-                right: 25%;
-                font-family: Georgia, serif;
-                font-size: 22px;
-                color: white;
-                overflow: auto;
-                text-shadow: 1px 1px 0px black;
-
-                animation: fade-in 1s ease-in-out;
-                animation-delay: 3s;
-                animation-fill-mode: backwards;
-            }
-            #return-button {
-                padding: 0px;
-                position: fixed;
-                top: 40.5%;
-                bottom: 40.5%;
-                color: black;
-                /* font-family: Georgia, serif; */
-                font-size: 17px;
-                font-variant: small-caps;
-                /* font-weight: bold; */
-                /* text-decoration: none; */
-                line-height: 110px;
-
-                animation: fade-in 1s ease-in-out;
-                animation-delay: 4s;
-                animation-fill-mode: backwards;
-            }
-            @keyframes fade-in {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="container1">
-            <div id="heading">Rogan Cavanaugh</div>
-            <div id="paragraph1">
+            <div class="element text" id="heading">Rogan Cavanaugh</div>
+            <div class="element text paragraph" id="paragraph1">
                 Quoniam nōn potuimus facillimē "lōrem ipsum" hīc scrībere, pauca dē mē loquar vērā latīnā: Animī causā, placet mī tempus terere discendō hominum linguās, praesertim hās antīquās: latīnam et graecam. Nunc autem, operam dō aliīs omnīnō linguīs, quae fortasse latīnē nōminārentur linguae programmandī.
             </div>
-            <a id="return-button" href="../../index.html">Back to Home</a>
-            <div id="paragraph2">
-                Ἤδη δὲ ἑλληνιστί ἐρῶ τινα περὶ ἐμοῦ· Ὅτε μὲν τυγχάνω σχολάζων, ἀρέσκει μοι μανθάνειν τᾱ̀ς γλώττᾱς τᾱ̀ς ἀνθρωπίνᾱς, μάλιστα ταύτᾱς τᾱ̀ς ἀρχαίᾱς· τὴν ἑλληνικὴν καὶ τὴν ῥωμαϊκήν. Νῦν δὲ προσέχω τὸν νοῦν πάνυ διαφόροις γλώτταις ἃι ἴσως ἑλληνιστὶ ὀνομάζοιντο ἂν γλώτται τοῦ προγραμματίζειν.
+            <a class="element text" id="return-button" href="../../index.html">Back to Home</a>
+            <div class="element text paragraph" id="paragraph2">
+                Ἤδη δὲ ἑλληνιστὶ ἐρῶ τινα περὶ ἐμοῦ· Ὅταν μὲν τυγχάνω σχολάζων, ἀρέσκει μοι μανθάνειν τᾱ̀ς γλώττᾱς τᾱ̀ς ἀνθρωπίνᾱς, μάλιστα ταύτᾱς τᾱ̀ς ἀρχαίᾱς· τὴν ἑλληνικὴν καὶ τὴν ῥωμαϊκήν. Νῦν δὲ προσέχω τὸν νοῦν πάνυ διαφόροις γλώτταις ἃι ἴσως ἑλληνιστὶ ὀνομάζοιντο ἂν γλώτται τοῦ προγραμματίζειν.
             </div>
         </div>
+        
     </body>
 </html>
