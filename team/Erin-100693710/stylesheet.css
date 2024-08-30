@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+h1 {
+  color:magenta;
+  font-size: 4rem;
+}
+
+.topRow {
+  margin-top: 15px;
+  margin-left: 500px;
+  display: flex;
+}
+
+.button {
+  margin-left: 30px;
+  background: white;
+  border: solid 3px magenta;
+  border-radius: 30%;
+  padding: 12px;
+}
