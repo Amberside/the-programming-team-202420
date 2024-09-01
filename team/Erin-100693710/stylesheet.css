@@ -17,12 +17,20 @@ h1 {
   margin-top: 15px;
   margin-left: 500px;
   display: flex;
+  flex-direction: row;
 }
 
 .button {
+  margin-top: 10px;
   margin-left: 30px;
-  background: white;
-  border: solid 3px magenta;
+  background: black;
+  border: solid 5px magenta;
+  color: magenta;
   border-radius: 30%;
-  padding: 12px;
+  height: 50px;
+  width: 55px;
+}
+
+.button:hover {
+  background: pink;
 }
