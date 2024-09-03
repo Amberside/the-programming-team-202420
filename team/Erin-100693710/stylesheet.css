@@ -41,15 +41,12 @@ h1 {
 /* PHOTO section */
 
 .s1heading {
-  color: pink;
+  color: magenta;
+  font-size: 50px;
 }
 
 img {
   vertical-align: middle;
-  float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
 }
 
 .photos{
@@ -58,6 +55,8 @@ img {
 
 .travel{
   display: none;
+  padding: 10px;
+  width: 30%;
 }
 
 .cursor{
@@ -73,9 +72,9 @@ img {
   width: auto;
   padding:16px;
   margin-top: -50px;
-  color:white;
+  color:magenta;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -84,16 +83,18 @@ img {
 .next{
   right:0;
   border-radius: 3px 0 0 3px;
+
 }
 
 .prev:hover,
 .next:hover{
-  background-color: magenta;
+  background-color: pink;
 }
 
 .numbertext {
-   color: #f2f2f2;
-   font-size: 12px;
+   color: magenta;
+   font-size: 25px;
+   font-weight: bold;
    padding: 8px 12px;
    position: absolute;
    top: 0;
@@ -101,9 +102,11 @@ img {
 
 .caption-container {
   text-align: center;
-  background-color: blue;
-  padding: 2px 16px;
-  color: blue;
+  background-color: black;
+  padding: 25px 16px;
+  color: magenta;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 row:after {
@@ -114,7 +117,7 @@ row:after {
 
 .column {
   float: left;
-  width: 16.66%;
+  width: 12.5%;
 }
 
 .demo {
