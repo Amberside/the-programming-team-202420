@@ -44,6 +44,7 @@ const imageList = [
 
 let students =
 [
+
 	{
 		"path": "amberle",
 		"lastName": "Seidl",
@@ -59,6 +60,12 @@ let students =
 		"lastName": "Cavanaugh",
 		"firstName": "Rogan"
 	}    
+	,
+	{
+		"path": "Sofia",
+		"lastName": "Mironenko",
+		"firstName": "Sofia"
+	}
 ];
 
 const maxColor = 15;
