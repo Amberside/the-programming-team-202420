@@ -44,14 +44,11 @@ const imageList = [
 
 let students =
 [
+
 	{
 		"path": "amberle",
 		"lastName": "Seidl",
-<<<<<<< Updated upstream
 		"firstName": "Amberle"
-	}    
-=======
-		"firstName": "Amberle",
 	},
 	{
 		"path": "JayPanupong",
@@ -78,9 +75,6 @@ let students =
 		"lastName": "Searle",
 		"firstName": "Hayley"
 	}
-
-
->>>>>>> Stashed changes
 ];
 
 const maxColor = 15;
@@ -93,5 +87,3 @@ students.forEach((student, index) => {
 	student.clip = `clip-${(index % maxClip + 1).toString()}`;
 	student.image = `${imageList[index % maxImage]}`;
 });
-
-let studentList = new StudentList("all-students", students);

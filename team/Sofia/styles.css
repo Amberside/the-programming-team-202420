@@ -1,0 +1,81 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to right, #55CDFC, #F7A8B8, #fff, #F7A8B8, #55CDFC);
+    background-size: 300% 300%;
+    animation: rainbow-background 5s ease infinite;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1, h2, p, footer p {
+    background: linear-gradient(to right, red, orange, #FFD700, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center; 
+}
+
+
+@keyframes rainbow-background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.friend {
+    text-align: center;
+}
+
+.friend-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid hsl(310, 100%, 50%);
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.friend-image img:hover {
+    transform: scale(1.05);
+}
+
+.friend-image p {
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
