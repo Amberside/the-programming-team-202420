@@ -48,7 +48,31 @@ let students =
 		"path": "amberle",
 		"lastName": "Seidl",
 		"firstName": "Amberle"
+<<<<<<< Updated upstream
 	}    
+=======
+	},
+	{
+		"path": "JayPanupong",
+		"lastName": "Jangjun",
+		"firstName": "Panupong"
+	},
+	{
+		"path": "rogan",
+		"lastName": "Cavanaugh",
+		"firstName": "Rogan"
+	},
+	{
+		"path": "Sofia",
+		"lastName": "Mironenko",
+		"firstName": "Sofia"
+	},
+	{
+		"path": "ethan",
+		"lastName": "Rechichi",
+		"firstName": "Ethan"
+	}
+>>>>>>> Stashed changes
 ];
 
 const maxColor = 15;
