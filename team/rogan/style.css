@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./images/Pantheon-Ceiling.jpg");
+
+    box-shadow: 0px 0px 50px 0px black inset;
+
+    text-align: center;
+}
+#container1 {
+    display: flex;
+    justify-content: center;
+    
+}
+.element {
+    animation: fade-in 1s ease-in-out;
+    animation-fill-mode: backwards;
+}
+.text {
+    font-family: Georgia, serif;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+#heading {
+    position: absolute;
+    top: 5%;
+    bottom: 83%;
+
+    font-size: 40px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0px black;
+
+    animation-delay: 1s;
+}
+.paragraph {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+
+    overflow: auto;
+}
+#paragraph1 {
+    top: 15%;
+    bottom: 60%;
+
+    font-size: 22px;
+
+    animation-delay: 2s;
+}
+#paragraph2 {
+    top: 63%;
+    bottom: 13%;
+
+    font-family: Verdana sans-serif;
+    font-size: 24px;
+
+    animation-delay: 3s;
+}
+#return-button {
+    position: absolute;
+    top: 40.5%;
+    bottom: 40.5%;
+
+    line-height: 110px;
+    font-size: 17px;
+    font-variant: small-caps;
+    color: black;
+    text-shadow: none;
+
+    animation-delay: 4s;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
