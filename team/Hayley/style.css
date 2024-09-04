@@ -1,0 +1,41 @@
+
+.body{
+    background-color: rgb(157, 0, 255) ;
+    color: white;
+}
+.h1{
+    text-align: center;
+    font-size: 70px;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+}
+.ph1{
+    height:300px; 
+    width:400px;
+}
+.ph3{
+    height:300px; 
+    width:400px;
+}
+.ph4{
+    height:300px; 
+    width:400px;
+}
+.ph5{
+    height:400px; 
+    width:300px;
+}
+.ph6{
+    height:400px; 
+    width:300px;
+}
+.ph7{
+    height:400px;
+    width:300px
+}
+.ph8{
+    height:400px; 
+    width:295px;
+}
