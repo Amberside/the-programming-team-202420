@@ -1,0 +1,25 @@
+/* figure out hover colour */
+nav{
+    font-family: "verdana, sans-serif";
+    font-size: 14px;
+    color: #f5d026;
+    background-color: #0C0DF0;
+}
+
+/* figure out hover colour */
+.imagegallery{
+    font-family: "verdana, sans-serif";
+    font-size: 18px;
+    color: black;
+    border-color: #0C0DF0; 
+}
+
+/* Make sure to change 'Product enquiry form' to 18px manually */
+form{
+    font-family: "verdana, sans-serif";
+    font-size: 14px;
+    color: black;
+    border-color: #0C0DF0;
+    background-color: #f5d026;
+}
+
