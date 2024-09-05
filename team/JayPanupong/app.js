@@ -35,7 +35,7 @@ card.addEventListener("mousemove", (event) =>{
     const distanceToCenter = Math.sqrt( Math.pow(deltaX,2) + Math.pow(deltaY,2) );
     const maxDistance = Math.max(halfWidth,halfHeigth)
     // degree of 3D rotation more far more degree
-    const degree = distanceToCenter*10 / maxDistance;
+    const degree = distanceToCenter*50 / maxDistance;
 
 
     //Rotation the card
