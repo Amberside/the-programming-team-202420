@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Font style */
+    margin: 0; /* No margin around the body */
+    padding: 0; /* No padding around the body */
+    background: linear-gradient(45deg, #ff0080, #ff8c00); /* Gradient background */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    padding: 20px; /* Space inside the container */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 600px; /* Maximum width of the container */
+    width: 100%; /* Full width on small screens */
+    color: white; /* White text color */
+}
+
+.header h1 {
+    text-align: center; /* Center the header text */
+    font-size: 2em; /* Font size for the header */
+    color: #ffcc00; /* Bright yellow for header */
+}
+
+.content p {
+    font-size: 1em; /* Font size for paragraphs */
+    line-height: 1.5; /* Space between lines */
+    color: #ffffff; /* White text color for paragraphs */
+}
+
+.content a {
+    color: #ffcc00; /* Bright yellow for links */
+    text-decoration: none; /* Remove underline from links */
+}
