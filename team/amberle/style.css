@@ -27,3 +27,19 @@ a {
 a:hover {
   background-color: blue;
 }
+
+.spinner {
+  margin-top: 3rem;
+  width: 150px;
+  height: 150px;
+  border: 32px solid pink;
+  border-top: 32px solid red;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+  
+}
