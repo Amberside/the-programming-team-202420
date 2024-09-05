@@ -8,29 +8,68 @@
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li>
-                <button onclick="openTab(event,'Home')">Home</button>
-                <a href="#home"></a>
-            </li>
-            <li><a href="#aboutme"></a>About Me</li>
-            <li><a href="#gallery"></a>Gallery</li>
-            <li><a href="#form"></a>Form</li>
-        </ul>
+    <!-- NAVBAR start -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 id="logo">Logo</h1>
+            <ul>
+                <li>
+                    <a href="#home" class="active">Home</a> 
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#form">Form</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    
+    <!-- NAVBAR end -->
+    <!-- NAVBAR CONTENT start-->
     <main>
         <div>Home Content</div>
 
-        <div>Gallery Content</div>
+        
+        <figure>Gallery Content</figure>
+            <img>
 
         <div>About Me Content</div>
 
         <div>Form Content</div>
     </main>
+    <!-- NAVBAR CONTENT end-->
 
 
+    <!-- FORM start-->
+    <div>
+        <form action="/action_page.php">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="John Smith">
+      
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="john@mail.com">
+      
+          <label for="product">Product</label>
+          <select id="product" name="product">
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <option value="product3">Product 3</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <input type="text" id="message" name="message" placeholder="Type your message here">
+
+          <input type="checkbox" id="subnewsletter" name="subnewsletter">
+          <label for="subnewsletter">Subscribe to our newsletter</label>
+
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- FORM END-->
 </body>
 <script src="app.js"></script>
 </html>
