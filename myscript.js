@@ -80,6 +80,11 @@ let students =
 		"path":"jeremy",
 		"lastName":"Johnston",
 		"firstName":"Jeremy"
+	},
+  {
+		"path":"Felicitas",
+		"lastName":"Simm",
+		"firstName":"Felicitas"
 	}
 ];
 
