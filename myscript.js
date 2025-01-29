@@ -50,42 +50,7 @@ let students =
 		"lastName": "Seidl",
 		"firstName": "Amberle"
 	},
-	{
-		"path": "JayPanupong",
-		"lastName": "Jangjun",
-		"firstName": "Panupong"
-	},
-	{
-		"path": "rogan",
-		"lastName": "Cavanaugh",
-		"firstName": "Rogan"
-	},
-	{
-		"path": "Sofia",
-		"lastName": "Mironenko",
-		"firstName": "Sofia"
-	},
-	{
-		"path": "ethan",
-		"lastName": "Rechichi",
-		"firstName": "Ethan"
-	},
-	{
-		"path": "Hayley",
-		"lastName": "Searle",
-		"firstName": "Hayley"
-
-	},
-  {
-		"path":"jeremy",
-		"lastName":"Johnston",
-		"firstName":"Jeremy"
-	},
-  {
-		"path":"Felicitas",
-		"lastName":"Simm",
-		"firstName":"Felicitas"
-	}
+	
 ];
 
 const maxColor = 15;
